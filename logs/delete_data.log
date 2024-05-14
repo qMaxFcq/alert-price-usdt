@@ -1,0 +1,5 @@
+2024-01-09 00:13:41,769 [INFO] Error from check_and_delete : local variable 'connection' referenced before assignment
+2024-01-09 00:13:52,047 [INFO] Error from check_and_delete : local variable 'connection' referenced before assignment
+2024-02-23 03:55:16,591 [INFO] Error from check_and_delete : local variable 'connection' referenced before assignment
+2024-02-27 20:31:55,017 [INFO] Error from check_and_delete : "None of [Index(['exchange_id', 'trade_type', 'symbol', 'created_at'], dtype='object')] are in the [columns]"
+2024-02-29 14:20:00,405 [INFO] Error from check_and_delete : "None of [Index(['exchange_id', 'trade_type', 'symbol', 'created_at'], dtype='object')] are in the [columns]"

@@ -1,0 +1,54 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: wg-cal-price
+  labels:
+    app.project: wg-pricing-management
+    app.name: wg-cal-price
+    app.env: production
+    app.version: 1.0.0
+spec:
+  replicas: 1
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app.name: wg-cal-price
+  template:
+    metadata:
+      labels:
+        app.name: wg-cal-price
+        app.project: wg-pricing-management
+    spec:
+      affinity:
+        nodeAffinity:
+          requiredDuringSchedulingIgnoredDuringExecution:
+            nodeSelectorTerms:
+              - matchExpressions:
+                  - key: kops.k8s.io/instancegroup
+                    operator: In
+                    values:
+                      - nodes-ap-southeast-1a
+      containers:
+        - name: wg-cal-price
+          image: 717581138308.dkr.ecr.ap-southeast-1.amazonaws.com/wg-cal-price:latest
+          imagePullPolicy: Always
+          envFrom:
+            - secretRef:
+                name: wg-cal-price-env-secret
+          resources: 
+            requests:
+              cpu: 100m
+              memory: 128Mi
+            limits:
+              cpu: 200m
+              memory: 256Mi
+          lifecycle:
+            preStop:
+              exec:
+                command: ["sleep", "15"]
+      imagePullSecrets:
+        - name: ecr-registry
+      restartPolicy: Always
+status: {}
+
