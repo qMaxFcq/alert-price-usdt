@@ -1,0 +1,47 @@
+2024-02-02 15:39:59,373 [INFO] Error from cal_summary: local variable 'p2p_buy_price_okx' referenced before assignment
+2024-02-02 15:54:25,809 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-02-22 19:42:17,234 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-22 19:42:17,234 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-22 19:42:17,237 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-22 19:42:17,237 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 11:10:38,919 [INFO] Error from cal_summary: 'NoneType' object is not subscriptable
+2024-02-27 11:10:38,919 [INFO] Error from cal_summary: 'NoneType' object is not subscriptable
+2024-02-27 19:46:38,254 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 19:46:38,254 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 20:31:55,020 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 20:31:55,020 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 20:31:55,022 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-02-27 20:31:55,022 [INFO] Error from cal_summary: 'NoneType' object has no attribute 'iloc'
+2024-03-22 16:17:03,553 [INFO] Error from cal_summary: local variable 'df_summary' referenced before assignment
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,210 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-04-29 19:24:18,507 [INFO] Error from cal_summary: single positional indexer is out-of-bounds
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,473 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:21:59,770 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:00,151 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:22:49,657 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
+2024-05-07 20:23:14,418 [INFO] Error from cal_summary: "['is_using_preset_1'] not in index"
